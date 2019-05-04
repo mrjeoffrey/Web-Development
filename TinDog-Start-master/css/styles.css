@@ -15,8 +15,16 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #ffffff;
+}
 
+/* Headings */
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
@@ -27,17 +35,14 @@ p {
 .navbar {
   padding: 0 0 4.5rem;
 }
-
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
-
 .nav-item {
   padding: 0 18px;
 }
-
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
@@ -49,15 +54,9 @@ p {
 }
 
 /*  Title Section  */
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid {
-  padding:3% 15% 7%;
+  padding: 3% 15% 7%;
+  text-align:left;
 }
 
 /*  Title Image */
@@ -70,53 +69,39 @@ p {
 
 /* Features Section */
 #features {
-  background-color: #ffffff;
   position: relative;
 }
-
-.feature-title{
-font-size: 1.5rem;
+.feature-title {
+  font-size: 1.5rem;
 }
-
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
-
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
-
 .icon:hover {
   color: #ff4c68;
 }
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
-
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-
-
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
-
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
@@ -125,55 +110,39 @@ font-size: 1.5rem;
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
-
-.price-text{
+.price-text {
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .price-title {
   font-size: 1.5rem;
 }
-
 .pricing-column {
   padding: 3% 2%;
 }
 
 /* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
-}
 
-#footer {
-  background-color: #ffffff;
-  text-align: center;
-}
 
+/* Footer Section */
 .social-icon {
   padding: 8px;
   color: #000000;
   font-size: .75rem;
   padding-bottom: 2rem;
 }
-
 .copyright {
   font-size: .75rem;
   margin-top: 10px;
 }
-
 @media (max-width: 1224px) {
   #title {
     text-align: center;
   }
-
   h1 {
     font-size: 2.5rem;
   }
-
   .title-image {
     margin-top: 1.5rem;
     position: static;
